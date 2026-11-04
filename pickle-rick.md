@@ -21,7 +21,7 @@ The Nmap scan revealed an open HTTP port.
 
 ## Website
 At http://10.114.137.31:80 I found this:\
-![[assets/image-20261103124648.png]]
+![Screenshot](assets/image-20261103124648.png)
 Upon inspecting the HTML source code I found this comment:
 ```http  
   <!--
