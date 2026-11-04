@@ -1,16 +1,3 @@
----
-Created: 2026-11-03
-Modified: 2026-11-04 16:12
-tags:
-  - CS/Cybersec
-  - Publish
-sources:
-  - https://tryhackme.com/room/picklerick
-format:
-  - Pentest
-aliases:
-related:
----
 #### Nmap Scan
 ```shell
 root@ip-10-114-86-244:~# nmap 10.114.137.31
