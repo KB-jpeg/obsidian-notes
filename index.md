@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Cybersecurity Notes
 A collection of my cybersecurity notes, lab writeups, and projects.
 
