@@ -11,6 +11,6 @@ This repo is a WIP
 I am an 18 year old Computer Science student with an interest in Cybersecurity.
 
 ### Links
-[TryHackMe](https://tryhackme.com/p/KB.jpeg)\
 [GitHub](https://github.com/KB-jpeg)\
-[LinkedIn](https://www.linkedin.com/in/krzysztof-bendykowski-579248389/)
+[LinkedIn](https://www.linkedin.com/in/krzysztof-bendykowski-579248389/)\
+[TryHackMe](https://tryhackme.com/p/KB.jpeg)
