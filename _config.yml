@@ -11,6 +11,7 @@ baseurl: "/obsidian-notes"
 
 color_scheme: dark
 search_enabled: true
+nav_enabled: false
 
 aux_links:
   "GitHub":
