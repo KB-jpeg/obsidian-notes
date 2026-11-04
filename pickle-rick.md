@@ -29,7 +29,7 @@ Upon inspecting the HTML source code I found this comment:
     Username: R1ckRul3s
   -->
 ```
-Username: R1ckRul3s
+Username: _R1ckRul3s_
 
 ## Gobuster Scan
 ```shell
@@ -67,8 +67,8 @@ After being unable to find anything else I decided to use a Gobuster scan again,
 ```shell
 /login.php            (Status: 200) [Size: 882]
 ```
-After using the previously found credentials:
-Username: _R1ckRul3s_
+After using the previously found credentials:\
+Username: _R1ckRul3s_\
 Password: _Wubbalubbadubdub_
 
 ## Command Panel
