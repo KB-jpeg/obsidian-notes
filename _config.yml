@@ -1,0 +1,17 @@
+title: Cybersecurity Notes
+description: Cybersecurity writeups, notes, and homelab projects
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+url: "https://kb-jpeg.github.io"
+baseurl: "/obsidian-notes"
+
+color_scheme: dark
+search_enabled: true
+
+aux_links:
+  "GitHub":
+    - "https://github.com/KB-jpeg/obsidian-notes"
