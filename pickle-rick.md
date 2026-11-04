@@ -4,7 +4,7 @@ title: Pickle Rick
 nav_order: 2
 ---
 
-#### Nmap Scan
+## Nmap Scan
 ```shell
 root@ip-10-114-86-244:~# nmap 10.114.137.31
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-11-03 11:43 UTC
@@ -18,7 +18,8 @@ PORT   STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 0.18 seconds
 ```
 The Nmap scan revealed an open HTTP port.
-#### Website
+
+## Website
 At http://10.114.137.31:80 I found this:
 ![[Pasted image 20261103124648.png]]
 Upon inspecting the HTML source code I found this comment:
@@ -29,7 +30,8 @@ Upon inspecting the HTML source code I found this comment:
   -->
 ```
 Username: R1ckRul3s
-#### Gobuster Scan
+
+## Gobuster Scan
 ```shell
 root@ip-10-114-86-244:~# gobuster dir -w /usr/share/wordlists/dirb/common.txt -u 10.114.137.31
 
@@ -66,9 +68,10 @@ After being unable to find anything else I decided to use a Gobuster scan again,
 /login.php            (Status: 200) [Size: 882]
 ```
 After using the previously found credentials:
-Username: R1ckRul3s
-Password: Wubbalubbadubdub
-#### Command Panel
+Username: _R1ckRul3s_
+Password: _Wubbalubbadubdub_
+
+## Command Panel
 Logging in with those credentials gave me access to the command panel.
 I used to ls command to see the files and directories, which revealed 2 new files:
 - Sup3rS3cretPickl3Ingred.txt
@@ -86,7 +89,8 @@ User www-data may run the following commands on ip-10-114-137-31:
     (ALL) NOPASSWD: ALL
 ```
 This vulnerability allowed commands to be executed with root privileges, resulting in privilege escalation. I used `sudo ls -a /root`, which revealed the file: 3rd.txt. Using `sudo less /root/3rd.txt` (as cat is disabled) I found the 3rd and final ingredient.
-#### Attack Chain
+
+## Attack Chain
 1. I used Nmap to discover the open HTTP port.
 2. I found the username in a comment in the source code of the site.
 3. I used Gobuster to try to find different directories.
