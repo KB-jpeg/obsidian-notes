@@ -20,8 +20,8 @@ Nmap done: 1 IP address (1 host up) scanned in 0.18 seconds
 The Nmap scan revealed an open HTTP port.
 
 ## Website
-At http://10.114.137.31:80 I found this:
-![[Pasted image 20261103124648.png]]
+At http://10.114.137.31:80 I found this:\
+![[assets/image-20261103124648.png]]
 Upon inspecting the HTML source code I found this comment:
 ```http  
   <!--
