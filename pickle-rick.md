@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Pickle Rick
-nav_order: 2
 ---
 
 ## Nmap Scan
