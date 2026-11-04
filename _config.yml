@@ -1,7 +1,7 @@
 title: Cybersecurity Notes
 description: Cybersecurity writeups, notes, and homelab projects
 
-remote_theme: just-the-docs/just-the-docs
+remote_theme: pages-themes/hacker@v0.2.0
 
 plugins:
   - jekyll-remote-theme
