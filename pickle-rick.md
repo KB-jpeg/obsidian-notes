@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pickle Rick
+nav_order: 2
+---
+
 #### Nmap Scan
 ```shell
 root@ip-10-114-86-244:~# nmap 10.114.137.31
