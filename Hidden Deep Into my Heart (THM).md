@@ -1,15 +1,8 @@
 ---
-Created: 2026-11-06
-Modified: 2026-11-06 18:34
-tags:
-  - Publish
-sources:
-  - https://tryhackme.com/room/lafb2026e9
-format:
-  - Pentest
-aliases:
-related:
+layout: default
+title: Pickle Rick
 ---
+
 #### Nmap Scan
 ```shell
 root@ip-10-112-70-35:~# nmap 10.112.184.73
